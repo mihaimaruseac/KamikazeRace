@@ -1,0 +1,13 @@
+Mihai Maruseac, 341C3
+Kamikaze Race
+
+Aplicația presupune că jucătorul este un șofer de mașină cam nenorocos: este pe
+autostradă în plin trafic cu accelerația la maxim și fără frâne. Ajută șoferul
+să supraviețuiască cât mai mult.
+
+Aplicația folosește senzorul de orientare, contând valoarea lui roll
+(dreapta-stânga). Dacă testați pe calculator (singurul lor unde a fost testată)
+trebie să folosiți simulatorul de la open intents.
+
+Pentru restart, se ține click lung pe ecran. Funcționează doar la game-over.
+
