@@ -12,9 +12,9 @@ layout: default
   {{ content }}
   {% unless page.footer == false %}
     <footer>
-      {% if page.author %}<p class="meta">
-        {% include post/author.html %}
-      </p>{% endif %}
+      <p class="meta">
+        Posted by {{ site.author }}.
+      </p>
     </footer>
   {% endunless %}
 </article>

@@ -10,7 +10,7 @@ It seems that CSS didn't work for the first time.
 
 Let's test again. And again. And once more.
 
-Author: {{ site.author }}\\
+Author: {{ site.author }}<br>
 Answer: {{ site.answer }}
 
 [GitHub]: https://github.com/mihaimaruseac/ me
