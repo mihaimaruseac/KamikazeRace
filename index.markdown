@@ -13,5 +13,5 @@ Bear with me and think of the question for which the following is true :)
 
 Answer: {{ site.answer }}
 
-[GitHub]: https://github.com/mihaimaruseac/ me
+[GitHub]: https://github.com/{{ site.GHuser }}/ me
 

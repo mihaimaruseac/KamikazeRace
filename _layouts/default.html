@@ -1,4 +1,4 @@
-{% capture realRoot %}"http://{{ site.GHuser }}.github.com/{{ site.GHprj }}{% endcapture %}
+{% capture realRoot %}"http://{{ site.GHuser }}.github.com{% if site.GHprj %}/{{ site.GHprj }}{% endif %}{% endcapture %}
 {% include head.html %}
 <body>
   <header role="banner">{% include header.html %}</header>
