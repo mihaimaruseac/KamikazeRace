@@ -13,5 +13,15 @@ Bear with me and think of the question for which the following is true :)
 
 Answer: {{ site.answer }}
 
+{{ site.url }}
+
+{{ page.url }}
+
+{{ root_url }}
+
+{{ site.destination }}
+
+{{ site.source }}
+
 [GitHub]: https://github.com/mihaimaruseac/ me
 
