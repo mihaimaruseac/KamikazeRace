@@ -4,5 +4,4 @@ pygments: true
 GAID: UA-28703364-1
 GHuser: mihaimaruseac
 GHprj: KamikazeRace
-rootOverride: test
 answer: 42
