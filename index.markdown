@@ -10,5 +10,8 @@ It seems that CSS didn't work for the first time.
 
 Let's test again. And again. And once more.
 
+Author: {{ author }}
+Answer: {{ answer }}
+
 [GitHub]: https://github.com/mihaimaruseac/ me
 
