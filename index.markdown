@@ -23,5 +23,7 @@ DEST: {{ site.destination }}
 
 SOURCE: {{ site.source }}
 
+RROOT: {{ site.realRoot }}
+
 [GitHub]: https://github.com/mihaimaruseac/ me
 
