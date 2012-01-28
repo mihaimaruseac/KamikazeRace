@@ -13,17 +13,5 @@ Bear with me and think of the question for which the following is true :)
 
 Answer: {{ site.answer }}
 
-SiteURL: {{ site.url }}
-
-PageURL: {{ page.url }}
-
-ROOT: {{ root_url }}
-
-DEST: {{ site.destination }}
-
-SOURCE: {{ site.source }}
-
-RROOT: {{ site.realRoot }}
-
 [GitHub]: https://github.com/mihaimaruseac/ me
 
