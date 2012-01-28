@@ -14,6 +14,7 @@ Bear with me and think of the question for which the following is true :)
 Answer: {{ site.answer }}
 
 {% include downloads.html %}
+{% include clone.html %}
 
 [GitHub]: https://github.com/{{ site.GHuser }}/ me
 
