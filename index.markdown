@@ -15,6 +15,7 @@ Answer: {{ site.answer }}
 
 {% include downloads.html %}
 {% include clone.html %}
+{% include github.html %}
 
 [GitHub]: https://github.com/{{ site.GHuser }}/ me
 
