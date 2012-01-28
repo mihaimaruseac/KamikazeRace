@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Kamikaze Race"
 footer: true
 ---
 
