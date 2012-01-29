@@ -179,8 +179,8 @@ blockquote cite a {
 
 blockquote cite:before {
   content:'\2014';
-  padding-right:.3em;
-  padding-left:.3em;
+  padding-right:.03em;
+  padding-left:.03em;
   color:#aaa
 }
 
