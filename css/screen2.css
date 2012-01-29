@@ -17,28 +17,6 @@ section,summary {
   display:block
 }
 
-body > div > div {
-  background:#f8f8f8 url('/KamikazeRace/noise.png') top left;
-  border-right:1px solid #dadde3
-}
-
-.group:after,body > header:after,body > nav:after,body > footer:after,
-body #content > article:after,body #content > div > article:after,
-body #content > div > section:after,body div.pagination:after,
-aside.sidebar:after,#main:after,#content:after,
-.collapse-sidebar aside.sidebar:after {
-  content:"";
-  display:table;
-  clear:both
-}
-
-body {
-  -webkit-text-size-adjust:none;
-  max-width:1000px;
-  position:relative;
-  margin:0 auto
-}
-
 body > header,body > nav,body > footer,body #content > article,
 body #content > div > article,body #content > div > section {
   padding-left:18px;

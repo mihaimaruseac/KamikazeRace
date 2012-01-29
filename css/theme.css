@@ -59,14 +59,17 @@ body > div {
   border-bottom:1px solid #bfbfbf
 }
 
-/* Zooms */
-.group,body > header,body > nav,body > footer,body #content > article,
-body #content > div > article,body #content > div > section,
-body div.pagination,aside.sidebar,#main,#content,
-.collapse-sidebar aside.sidebar {
-  *zoom:4
+body > div > div {
+  background:#f8f8f8 url('/KamikazeRace/noise.png') top left;
+  border-right:1px solid #dadde3
 }
 
+body {
+  -webkit-text-size-adjust:none;
+  max-width:1000px;
+  position:relative;
+  margin:0 auto
+}
 
 /* Get title gradient background */
 body > header {
