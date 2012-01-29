@@ -4,9 +4,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Tangerine", "Georgia", "Helvetica Neue", Arial, sans-serif;
 }
 
-a:link, a:visited {
-  text-decoration: none;
-}
 .sans {
   /* ${sans} */
   font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
@@ -23,9 +20,11 @@ a:link, a:visited {
 }
 
 body > header h1 {
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 2px 2px 2px #aaa;
+  text-decoration: none;
   font-size: 5em;
-  font-weight: normal;
+  font-weight: bold;
+  font-color: black;
   line-height: 1.2em;
   margin-bottom: 0.6667em;
 }
