@@ -243,12 +243,12 @@ article > footer p.meta {
 /* Get title gradient background */
 body > header {
   background-color:#002b36;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(100%, #002b36));
-  background: -webkit-linear-gradient(#e0e0e0, #002b36);
-  background: -moz-linear-gradient(#e0e0e0, #002b36);
-  background: -o-linear-gradient(#e0e0e0, #002b36);
-  background: -ms-linear-gradient(#e0e0e0, #002b36);
-  background: linear-gradient(#e0e0e0, #002b36);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%,#001513), color-stop(100%, #002b36));
+  background: -webkit-linear-gradient(#001513, #002b36);
+  background: -moz-linear-gradient(#001513, #002b36);
+  background: -o-linear-gradient(#001513, #002b36);
+  background: -ms-linear-gradient(#001513, #002b36);
+  background: linear-gradient(#001513, #002b36);
   border-top:1px solid #f2f2f2;
   position:relative;
   padding-bottom:1em;
