@@ -4,7 +4,7 @@ $blockquote: $type-border !default;
 
 .heading, body > header h1, body > header h2 {
   /* ${heading-font-family} */
-  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Tangerine", "Georgia", "Helvetica Neue", Arial, sans-serif;
 }
 
 .sans {
@@ -14,7 +14,7 @@ $blockquote: $type-border !default;
 
 .serif, body {
   /* ${serif} */
-  font-family: "Tangerine", Georgia, Times, "Times New Roman", serif;
+  font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
 }
 
 .mono {
