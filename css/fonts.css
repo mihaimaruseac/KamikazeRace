@@ -33,7 +33,7 @@ body > header h1 > a {
 }
 
 body {
-  line-height: 1;
+  line-height: 1.5em;
   /* ${text-color} = #222 */
   color: #222;
 }
