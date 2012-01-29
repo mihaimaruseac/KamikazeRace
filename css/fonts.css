@@ -23,7 +23,8 @@ $blockquote: $type-border !default;
 }
 
 body > header h1 {
-  font-size: 2.2em;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 2.5em;
   font-weight: normal;
   line-height: 1.2em;
   margin-bottom: 0.6667em;
