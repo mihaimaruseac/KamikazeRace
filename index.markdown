@@ -11,7 +11,7 @@ there) and putting them togheter to create something awesome.
 
 Bear with me and think of the question for which the following is true :)
 
-Answer: {{ site.answer }}
+<h1> Answer: {{ site.answer }}</h1>
 
 {% include downloads.html %}
 {% include clone.html %}

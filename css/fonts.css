@@ -1,10 +1,9 @@
 /*
 $blockquote: $type-border !default;
-$header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $heading-font-family !default;
 */
 
-.heading {
+.heading, body > header h1 {
   /* ${heading-font-family} */
   font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
 }
@@ -24,3 +23,9 @@ $header-subtitle-font-family: $heading-font-family !default;
   font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 }
 
+body > header h1 {
+  font-size: 2.2em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin-bottom: 0.6667em;
+}
