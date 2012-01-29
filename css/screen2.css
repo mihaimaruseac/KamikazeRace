@@ -17,11 +17,6 @@ section,summary {
   display:block
 }
 
-body > div {
-  background:#edeff4 url('/KamikazeRace/noise.png') top left;
-  border-bottom:1px solid #bfbfbf
-}
-
 body > div > div {
   background:#f8f8f8 url('/KamikazeRace/noise.png') top left;
   border-right:1px solid #dadde3

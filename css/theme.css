@@ -1,3 +1,6 @@
+/* Untesteds */
+:wa
+
 table {
   border-collapse:collapse;
   border-spacing:0
@@ -9,6 +12,7 @@ caption,th,td {
   vertical-align:middle
 }
 
+/* Links */
 a img{
   border:none
 }
@@ -45,8 +49,14 @@ body > header h1 > a, body > header h1 > a:visited {
   color: white;
 }
 
+/* Main areas */
 html {
   background:#252525 url('/KamikazeRace/line-tile.png') top left
+}
+
+body > div {
+  background:#edeff4 url('/KamikazeRace/noise.png') top left;
+  border-bottom:1px solid #bfbfbf
 }
 
 
