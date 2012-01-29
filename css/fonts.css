@@ -161,15 +161,11 @@ big {
 }
 
 blockquote {
-  margin: 1.2em;
   font-style: italic;
-  position: relative;
   font-size: 1.2em;
   line-height: 1.5em;
-  padding-left: 1em;
-  border-left: 4px
   /* ${text-color-light} */
-  color: rgba(#a00, .5);
+  color: #a00;
 }
 
 /* force long lines of continuous text to wrap */
