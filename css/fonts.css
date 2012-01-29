@@ -1,9 +1,8 @@
 /*
 $blockquote: $type-border !default;
-$header-subtitle-font-family: $heading-font-family !default;
 */
 
-.heading, body > header h1 {
+.heading, body > header h1, body > header h2 {
   /* ${heading-font-family} */
   font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
 }
@@ -13,7 +12,7 @@ $header-subtitle-font-family: $heading-font-family !default;
   font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-.serif {
+.serif, body {
   /* ${serif} */
   font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
 }
@@ -28,4 +27,15 @@ body > header h1 {
   font-weight: normal;
   line-height: 1.2em;
   margin-bottom: 0.6667em;
+}
+
+body {
+  line-height: 1.5em;
+  /* ${text-color} = #222 */
+  color: #222;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.2em;
 }
