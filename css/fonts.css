@@ -164,7 +164,7 @@ blockquote {
   font-family: "Tangerine", "Georgia", "Helvetica Neue", Arial, sans-serif;
   font-style: italic;
   font-size: 2.2em;
-  line-height: 1.5em;
+  line-height: 0.5em;
 }
 
 /* force long lines of continuous text to wrap */
