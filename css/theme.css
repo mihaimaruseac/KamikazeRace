@@ -16,6 +16,10 @@ body > header hgroup {
   margin:0 auto
 }
 
+body > header {
+  margin: 0
+}
+
 body > header h1 {
   line-height:.8em;
   position:relative;
