@@ -122,6 +122,34 @@ aside.sidebar img.right {
   margin-bottom:.8em
 }
 
+/* Pagination */
+#content div.pagination {
+  text-align:center;
+  font-size:.95em;
+  position:relative;
+  background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') top left repeat-x;
+  padding-top:1.5em;
+  padding-bottom:1.5em
+}
+
+#content div.pagination a {
+  text-decoration:none;
+  color:#aaa
+}
+
+#content div.pagination a.prev { 
+  position:absolute;left:0
+}
+
+#content div.pagination a.next {
+  position:absolute;right:0
+}
+
+#content div.pagination a:hover {
+  color:#0181eb
+}
+
+/* Article */
 
 /* Get title gradient background */
 body > header {
