@@ -160,34 +160,6 @@ big {
   font-size: 1.2em;
 }
 
-blockquote {
-  margin: 1.2em;
-  font-style: italic;
-  position: relative;
-  font-size: 1.2em;
-  line-height: 1.5em;
-  padding-left: 1em;
-  /* ${text-color-light} */
-  border-left: 4px solid rgba(#aaa, .5);
-}
-
-blockquote > cite {
-  font-style: italic;
-}
-
-blockquote > cite > a {
-  color: $text-color-light !important;
-  word-wrap: break-word;
-}
-
-blockquote > cite:before {
-  content: '\2014';
-  padding-right: .3em;
-  padding-left: .3em;
-  /* ${text-color-light} */
-  color: #aaa;
-}
-
 /* force long lines of continuous text to wrap */
 .force-wrap {
   white-space: -moz-pre-wrap;
