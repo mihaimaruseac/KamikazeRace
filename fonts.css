@@ -1,0 +1,26 @@
+/*
+$blockquote: $type-border !default;
+$header-title-font-family: $heading-font-family !default;
+$header-subtitle-font-family: $heading-font-family !default;
+*/
+
+.heading {
+  /* ${heading-font-family} */
+  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+}
+
+.sans {
+  /* ${sans} */
+  font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.serif {
+  /* ${serif} */
+  font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+}
+
+.mono {
+  /* ${mono} */
+  font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+}
+
