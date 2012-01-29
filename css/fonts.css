@@ -29,7 +29,8 @@ body > header h1 {
 
 body > header h1 > a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 4em;
 }
 
 body {
