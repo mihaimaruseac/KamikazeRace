@@ -159,6 +159,7 @@ p pre code,li pre code {
 
 .pre-code,html .gist .gist-file .gist-syntax .gist-highlight pre,
 .highlight code {
+  font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace !important;
   overflow:scroll;
   overflow-y:hidden;
   display:block;
@@ -616,6 +617,7 @@ h3.filename,figure.code figcaption {
   -ms-border-top-right-radius:5px;
   -khtml-border-top-right-radius:5px;
   border-top-right-radius:5px;
+  font-family:"Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
   background:#aaa url('/KamikazeRace/code_bg.png') top repeat-x;
   border:1px solid #565656;
   border-top-color:#cbcbcb;
