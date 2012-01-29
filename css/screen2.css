@@ -81,12 +81,10 @@ html {
 }
 
 body > div {
-	background:#edeff4 url('/KamikazeRace/noise.png') top left;
 	border-bottom:1px solid #bfbfbf
 }
 
 body > div > div {
-	background:#f8f8f8 url('/KamikazeRace/noise.png') top left;
 	border-right:1px solid #dadde3
 }
 
@@ -405,12 +403,12 @@ body > header h2 {
 body > nav {
 	position:relative;
 	background-color:#c5dcbb;
-	background:url('/KamikazeRace/noise.png'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dcead6), color-stop(50%, #c5dcbb), color-stop(100%, #a5c896));
-	background:url('/KamikazeRace/noise.png'), -webkit-linear-gradient(#dcead6,#c5dcbb,#a5c896);
-	background:url('/KamikazeRace/noise.png'), -moz-linear-gradient(#dcead6,#c5dcbb,#a5c896);
-	background:url('/KamikazeRace/noise.png'), -o-linear-gradient(#dcead6,#c5dcbb,#a5c896);
-	background:url('/KamikazeRace/noise.png'), -ms-linear-gradient(#dcead6,#c5dcbb,#a5c896);
-	background:url('/KamikazeRace/noise.png'), linear-gradient(#dcead6,#c5dcbb,#a5c896);
+	-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dcead6), color-stop(50%, #c5dcbb), color-stop(100%, #a5c896));
+	-webkit-linear-gradient(#dcead6,#c5dcbb,#a5c896);
+	-moz-linear-gradient(#dcead6,#c5dcbb,#a5c896);
+	-o-linear-gradient(#dcead6,#c5dcbb,#a5c896);
+	-ms-linear-gradient(#dcead6,#c5dcbb,#a5c896);
+	linear-gradient(#dcead6,#c5dcbb,#a5c896);
 	border-top:1px solid #f0f6ed;
 	border-bottom:1px solid #7db067;
 	padding-top:.35em;
@@ -688,7 +686,6 @@ html .gist .gist-file .gist-syntax .gist-highlight .line-numbers {
 	text-align:right;
 	font-size:13px;
 	line-height:1.45em;
-	background:#073642 url('/KamikazeRace/noise.png') top left !important;
 	border-right:1px solid #00232c !important;
 	-moz-box-shadow:#083e4b -1px 0 inset;
 	-webkit-box-shadow:#083e4b -1px 0 inset;
@@ -744,7 +741,6 @@ html .gist .gist-file .gist-meta {
 	border:1px solid #083e4b !important;
 	color:#586e75;
 	font-size:.7em !important;
-	background:#073642 url('/KamikazeRace/noise.png') top left;
 	line-height:1.5em
 }
 
@@ -778,7 +774,6 @@ html .gist .gist-file .gist-meta a[href*=raw]{
 }
 
 pre{
-	background:#002b36 url('/KamikazeRace/noise.png') top left;
 	-moz-border-radius:0.4em;
 	-webkit-border-radius:0.4em;
 	-o-border-radius:0.4em;
@@ -842,7 +837,6 @@ p pre code,li pre code {
 	padding:.8em !important;
 	overflow-x:auto;
 	line-height:1.45em;
-	background:#002b36 url('/KamikazeRace/noise.png') top left !important;
 	color:#93a1a1 !important
 }
 
@@ -1325,12 +1319,12 @@ body > footer{
 	color:#888;
 	text-shadow:#d9d9d9 0 1px;
 	background-color:#ccc;
-	background:url('/KamikazeRace/noise.png'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
-	background:url('/KamikazeRace/noise.png'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-	background:url('/KamikazeRace/noise.png'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-	background:url('/KamikazeRace/noise.png'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-	background:url('/KamikazeRace/noise.png'), -ms-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-	background:url('/KamikazeRace/noise.png'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+	-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
+	-webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+	-moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+	-o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+	-ms-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+	linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
 	border-top:1px solid #f2f2f2;
 	position:relative;
 	padding-top:1em;
