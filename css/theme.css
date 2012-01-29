@@ -45,6 +45,11 @@ body > header h1 > a, body > header h1 > a:visited {
   color: white;
 }
 
+html {
+  background:#252525 url('/KamikazeRace/line-tile.png') top left
+}
+
+
 /* Get title gradient background */
 body > header {
   background-color:#002b36;
