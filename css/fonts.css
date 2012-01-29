@@ -163,8 +163,8 @@ big {
 blockquote {
   font-family: "Tangerine", "Georgia", "Helvetica Neue", Arial, sans-serif;
   font-style: italic;
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: 4.2em;
+  line-height: 2.5em;
 }
 
 /* force long lines of continuous text to wrap */
