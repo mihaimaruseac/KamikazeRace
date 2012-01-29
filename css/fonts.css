@@ -1,7 +1,3 @@
-/*
-$blockquote: $type-border !default;
-*/
-
 .heading, body > header h1, body > header h2, #h1, #h2, #h3, #h4, #h5, #h6,
 h1, h2, h3, h4, h5, h6 {
   /* ${heading-font-family} */
@@ -155,15 +151,27 @@ abbr, acronym {
   cursor: help;
 }
 
-sub, sup { line-height: 0; }
+sub, sup {
+  line-height: 0;
+}
 
-hr { margin-bottom: 0.2em; }
+hr {
+  margin-bottom: 0.2em;
+}
 
-small { font-size: .8em; }
+small {
+  font-size: .8em;
+}
 
-big { font-size: 1.2em; }
+big {
+  font-size: 1.2em;
+}
 
 blockquote {
+/*
+$blockquote: $type-border !default;
+*/
+
   $bq-margin: 1.2em;
   font-style: italic;
   position: relative;
@@ -209,7 +217,7 @@ blockquote {
   margin: .5em 1.5em 1em 0;
 }
 
-/* @extend this to force long lines of continuous text to wrap */
+/* force long lines of continuous text to wrap */
 .force-wrap {
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
@@ -217,3 +225,4 @@ blockquote {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
