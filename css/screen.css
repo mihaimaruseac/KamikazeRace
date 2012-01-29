@@ -1,7 +1,11 @@
 @import url('top_level_vars.css');
 
+@variables {
+  mm1: #abc;
+}
+
 #content {
-	background-color: var(mm);
+	background-color: var(mm1);
 	color: #def;
 }
 
