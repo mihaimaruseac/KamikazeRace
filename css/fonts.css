@@ -164,10 +164,29 @@ blockquote {
   font-family: "Tangerine", "Georgia", "Helvetica Neue", Arial, sans-serif;
   font-style: italic;
   font-size: 35px;
+  line-height:1.5em;
+  padding-left:1em;
+  border-left:4px solid rgba(170,170,170,0.5)
+}
+
+blockquote cite {
+  font-style:italic
+}
+
+blockquote cite a {
+  color:#aaa !important;
+  word-wrap:break-word
+}
+
+blockquote cite:before {
+  content:'\2014';
+  padding-right:.3em;
+  padding-left:.3em;
+  color:#aaa
 }
 
 /* force long lines of continuous text to wrap */
-.force-wrap {
+.force-wrap, article a {
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
