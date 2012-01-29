@@ -15,6 +15,8 @@ Bear with me and think of the question for which the following is true :)
 
 > quote
 
+    a = a + 2
+
 {% include downloads.html %}
 {% include clone.html %}
 {% include github.html %}
