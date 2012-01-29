@@ -150,6 +150,95 @@ aside.sidebar img.right {
 }
 
 /* Article */
+article {
+  padding-top:1em
+}
+
+article header {
+  position:relative;
+  padding-top:2em;
+  padding-bottom:1em;
+  margin-bottom:1em;
+  background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') bottom left repeat-x
+}
+
+article header h1 {
+  margin:0
+}
+
+article header h1 a {
+  text-decoration:none
+}
+
+article header h1 a:hover{
+  text-decoration:underline
+}
+
+article header p {
+  font-size:.9em;
+  color:#aaa;
+  margin:0
+}
+
+article header p.meta {
+  text-transform:uppercase;
+  position:absolute;
+  top:0
+}
+
+article h2{
+  padding-top:0.8em;
+  background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') top left repeat-x
+}
+
+.entry-content article h2:first-child,article header + h2 {
+  padding-top:0
+}
+
+article h2:first-child,article header + h2 {
+  background:none
+}
+
+article .feature {
+  padding-top:.5em;
+  margin-bottom:1em;
+  padding-bottom:1em;
+  background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') bottom left repeat-x;
+  font-size:2.0em;
+  font-style:italic;
+  line-height:1.3em
+}
+
+article img, {
+  -moz-border-radius:0.3em;
+  -webkit-border-radius:0.3em;
+  -o-border-radius:0.3em;
+  -ms-border-radius:0.3em;
+  -khtml-border-radius:0.3em;
+  border-radius:0.3em;
+  -moz-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;
+  -webkit-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;
+  -o-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;
+  box-shadow:rgba(0,0,0,0.15) 0 1px 4px;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box;
+  border:white 0.5em solid
+}
+
+article > footer {
+  padding-bottom:2.5em;
+  margin-top:2em
+}
+
+article > footer p.meta {
+  margin-bottom:.8em;
+  font-size:.85em;
+  clear:both;
+  overflow:hidden
+}
+
 
 /* Get title gradient background */
 body > header {
