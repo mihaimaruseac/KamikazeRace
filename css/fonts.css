@@ -69,8 +69,12 @@ h6, section h5, section section h4, section section section h3 {
   font-size: .8em;
 }
 
-p, blockquote, ul, ol {
+p, ul, ol {
   margin-bottom: 1.5em;
+}
+
+blockquote {
+  margin-bottom: 0.5em;
 }
 
 ul {
@@ -179,8 +183,8 @@ blockquote cite a {
 
 blockquote cite:before {
   content:'\2014';
-  padding-right:.03em;
-  padding-left:.03em;
+  padding-right:.3em;
+  padding-left:.3em;
   color:#aaa
 }
 
