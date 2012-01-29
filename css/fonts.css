@@ -1,4 +1,4 @@
-.heading, body > header h1, body > header h2, #h1, #h2, #h3, #h4, #h5, #h6,
+.heading, body > header h2, #h1, #h2, #h3, #h4, #h5, #h6,
 h1, h2, h3, h4, h5, h6 {
   /* ${heading-font-family} */
   font-family: "Tangerine", "Georgia", "Helvetica Neue", Arial, sans-serif;
@@ -25,6 +25,7 @@ body > header h1 {
   font-weight: bold;
   line-height: 1.2em;
   margin-bottom: 0.6667em;
+  font-family: "Castellar", "Georgia", "Helvetica Neue", Arial, sans-serif;
 }
 
 body {

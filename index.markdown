@@ -14,8 +14,11 @@ Bear with me and think of the question for which the following is true :)
 <h1> Answer: {{ site.answer }}</h1>
 
 > quote
->> longer quote
->>> even longer quote
+>> I arise in the morning torn between a desire to improve the world and a
+>> desire to enjoy the world. This makes it hard to plan the day.
+>>> Perilous to us all are the devices of an art deeper than we posses
+>>> ourselves.
+>>>> All we have to decide is what we do with the time that is given to us.
 
     a = a + 2
 
