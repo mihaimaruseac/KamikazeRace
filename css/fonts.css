@@ -160,6 +160,17 @@ big {
   font-size: 1.2em;
 }
 
+blockquote {
+  margin: 1.2em;
+  font-style: italic;
+  position: relative;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-left: 1em;
+  /* ${text-color-light} */
+  border-left: 4px solid rgba(#aaa, .5);
+}
+
 /* force long lines of continuous text to wrap */
 .force-wrap {
   white-space: -moz-pre-wrap;
