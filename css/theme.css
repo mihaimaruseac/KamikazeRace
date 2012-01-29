@@ -249,7 +249,7 @@ body > header {
   background: -o-linear-gradient(#001513, #002b36);
   background: -ms-linear-gradient(#001513, #002b36);
   background: linear-gradient(#001513, #002b36);
-  border-top:0.9px solid #f2f2f2;
+  border-top:0px solid #f2f2f2;
   position:relative;
   padding-bottom:1em;
   padding-top:1em;
