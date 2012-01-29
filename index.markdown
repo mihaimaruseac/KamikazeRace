@@ -21,12 +21,6 @@ Bear with me and think of the question for which the following is true :)
 {% include clone.html %}
 {% include github.html %}
 
-{% comment %}{% pullquote %}{% endcomment %}
-Surround your paragraph with the pull quote tags. Then when you come to
-the text you want to pull, {" surround it like this "} and that's all there is
-to it.
-{% comment %}{% endpullquote %}{% endcomment %}
-
 Extras
 ======
 
