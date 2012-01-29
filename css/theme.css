@@ -10,13 +10,14 @@ body > header {
   background: linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C *
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 *
   */
-  background-color:#ccc;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
-  background: -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: -ms-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  /* background:#002b36 url('/KamikazeRace/noise.png') top left; */
+  background-color:#002b36;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #002b36), color-stop(100%, #b0b0b0));
+  background: -webkit-linear-gradient(#e0e0e0, #002b36, #b0b0b0);
+  background: -moz-linear-gradient(#e0e0e0, #002b36, #b0b0b0);
+  background: -o-linear-gradient(#e0e0e0, #002b36, #b0b0b0);
+  background: -ms-linear-gradient(#e0e0e0, #002b36, #b0b0b0);
+  background: linear-gradient(#e0e0e0, #002b36, #b0b0b0);
   border-top:1px solid #f2f2f2;
   position:relative;
   padding-bottom:1em;
