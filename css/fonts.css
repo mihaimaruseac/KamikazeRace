@@ -127,18 +127,6 @@ sub {
   bottom: -.5em;
 }
 
-q {
-  font-style: italic;
-}
-
-q:before {
-  content: "\201C";
-}
-
-q:after {
-  content: "\201D";
-}
-
 em, dfn {
   font-style: italic;
 }
@@ -173,53 +161,31 @@ big {
 }
 
 blockquote {
-/*
-$blockquote: $type-border !default;
-*/
-
-  $bq-margin: 1.2em;
+  margin: 1.2em;
   font-style: italic;
   position: relative;
   font-size: 1.2em;
   line-height: 1.5em;
   padding-left: 1em;
-  border-left: 4px solid rgba($text-color-light, .5);
-  cite {
-    font-style: italic;
-    a { color: $text-color-light !important; word-wrap: break-word; }
-    &:before { content: '\2014'; padding:{right: .3em; left: .3em;} color: $text-color-light; }
-  }
-  @media only screen and (min-width: 992px) {
-    padding-left: 1.5em;
-    border-left-width: 4px;
-  }
+  /* ${text-color-light} */
+  border-left: 4px solid rgba(#aaa, .5);
 }
 
-.pullquote-right:before,
-.pullquote-left:before {
-  /* Reset metrics. */
-  padding: 0;
-  border: none;
-
-  /* Content */
-  content: attr(data-pullquote);
-
-  /* Pull out to the right, modular scale based margins. */
-  float: right;
-  width: 45%;
-  margin: .5em 0 1em 1.5em;
-
-  /* Baseline correction */
-  position: relative;
-  top: 7px;
-  font-size: 1.4em;
-  line-height: 1.45em;
+blockquote > cite {
+  font-style: italic;
 }
 
-.pullquote-left:before {
-  /* Make left pullquotes align properly. */
-  float: left;
-  margin: .5em 1.5em 1em 0;
+blockquote > cite > a {
+  color: $text-color-light !important;
+  word-wrap: break-word;
+}
+
+blockquote > cite:before {
+  content: '\2014';
+  padding-right: .3em;
+  padding-left: .3em;
+  /* ${text-color-light} */
+  color: #aaa;
 }
 
 /* force long lines of continuous text to wrap */
