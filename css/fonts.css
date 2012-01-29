@@ -168,7 +168,7 @@ blockquote {
   line-height: 1.5em;
   padding-left: 1em;
   /* ${text-color-light} */
-  border-left: 4px solid rgba(#aaa, .5);
+  border-left: 4px solid rgba(#a00, .5);
 }
 
 /* force long lines of continuous text to wrap */
