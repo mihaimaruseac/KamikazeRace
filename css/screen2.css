@@ -21,38 +21,6 @@ section,summary {
   overflow:hidden
 }
 
-#content > div, #content > article {
-  width:100%
-}
-
-article img {
-  max-width:100%;
-  height:auto
-}
-
-.basic-alignment.left, article img.left {
-  float:left;
-  margin-right:1.5em
-}
-
-.basic-alignment.right, article img.right {
-  float:right;
-  margin-left:1.5em
-}
-
-.basic-alignment.center,article img.center,article video.center,
-article .center.flash-video,aside.sidebar img.center {
-  display:block;
-  margin:0 auto 1.5em
-}
-
-.basic-alignment.left,article img.left,article video.left,
-article .left.flash-video,aside.sidebar img.left,.basic-alignment.right,
-article img.right,article video.right,article .right.flash-video,
-aside.sidebar img.right {
-  margin-bottom:.8em
-}
-
 body > header {
   background:#263347
 }
