@@ -59,6 +59,14 @@ body > div {
   border-bottom:1px solid #bfbfbf
 }
 
+/* Zooms */
+.group,body > header,body > nav,body > footer,body #content > article,
+body #content > div > article,body #content > div > section,
+body div.pagination,aside.sidebar,#main,#content,
+.collapse-sidebar aside.sidebar {
+  *zoom:1
+}
+
 
 /* Get title gradient background */
 body > header {
