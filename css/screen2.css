@@ -17,23 +17,6 @@ section,summary {
   display:block
 }
 
-body > header,body > nav,body > footer,body #content > article,
-body #content > div > article,body #content > div > section {
-  padding-left:18px;
-  padding-right:18px
-}
-
-body div.pagination {
-  margin-left:18px;
-  margin-right:18px
-}
-
-body > header {
-  font-size:1em;
-  padding-top:1.5em;
-  padding-bottom:1.5em
-}
-
 #content {
   overflow:hidden
 }

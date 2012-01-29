@@ -71,6 +71,24 @@ body {
   margin:0 auto
 }
 
+/* paddings and margins */
+body > header,body > nav,body > footer,body #content > article,
+body #content > div > article,body #content > div > section {
+  padding-left:18px;
+  padding-right:18px
+}
+
+body div.pagination {
+  margin-left:18px;
+  margin-right:18px
+}
+
+body > header {
+  font-size:1em;
+  padding-top:1.5em;
+  padding-bottom:1.5em
+}
+
 /* Get title gradient background */
 body > header {
   background-color:#002b36;
