@@ -14,7 +14,7 @@ $blockquote: $type-border !default;
 
 .serif, body {
   /* ${serif} */
-  font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+  font-family: "Tangerine", Georgia, Times, "Times New Roman", serif;
 }
 
 .mono {
