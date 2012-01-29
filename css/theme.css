@@ -40,7 +40,7 @@ a {
   transition:color 0.3s
 }
 
-body > header h1 > a {
+body > header h1 > a, body > header h1 > a:visited {
   text-decoration: none;
   color: white;
 }
