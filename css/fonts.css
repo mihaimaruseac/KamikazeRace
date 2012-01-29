@@ -166,7 +166,7 @@ blockquote {
   font-size: 35px;
   line-height:1.5em;
   padding-left:1em;
-  border-left:4px solid rgba(170,170,170,0.5)
+  border-left:14px solid rgba(170,170,170,0.5)
 }
 
 blockquote cite {
