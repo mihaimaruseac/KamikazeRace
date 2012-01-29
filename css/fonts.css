@@ -161,11 +161,10 @@ big {
 }
 
 blockquote {
+  font-family: "Marck Script", "Georgia", "Helvetica Neue", Arial, sans-serif;
   font-style: italic;
   font-size: 1.2em;
   line-height: 1.5em;
-  /* ${text-color-light} */
-  color: #a00;
 }
 
 /* force long lines of continuous text to wrap */
