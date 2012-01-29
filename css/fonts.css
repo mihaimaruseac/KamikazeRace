@@ -2,9 +2,11 @@
 h1, h2, h3, h4, h5, h6 {
   /* ${heading-font-family} */
   font-family: "Tangerine", "Georgia", "Helvetica Neue", Arial, sans-serif;
-  text-decoration: none;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+}
 .sans {
   /* ${sans} */
   font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
