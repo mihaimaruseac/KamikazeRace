@@ -1391,21 +1391,6 @@ body > header h1 a:hover {
 	color:#fff
 }
 
-body > header h1:after {
-	content:"";
-	position:absolute;
-	left:0;
-	right:0;
-	top:.1em;
-	height:227px;
-	text-indent:-119988px;
-	overflow:hidden;
-	text-align:left;
-	background-image:url('/KamikazeRace/logo.png');
-	background-repeat:no-repeat;
-	background-position:50% 50%
-}
-
 body > header h2 {
 	font-size:1.6em;
 	position:relative;
