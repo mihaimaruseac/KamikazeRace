@@ -252,20 +252,20 @@ body > header {
   border-top:1px solid #f2f2f2;
   position:relative;
   padding-bottom:1em;
-  padding-top:1em;
+  padding-top:0.9em;
   margin-top:0em;
-  -moz-border-radius-topleft:0.3em;
-  -webkit-border-top-left-radius:0.3em;
-  -o-border-top-left-radius:0.3em;
-  -ms-border-top-left-radius:0.3em;
-  -khtml-border-top-left-radius:0.3em;
-  border-top-left-radius:0.3em;
-  -moz-border-radius-topright:0.3em;
-  -webkit-border-top-right-radius:0.3em;
-  -o-border-top-right-radius:0.3em;
-  -ms-border-top-right-radius:0.3em;
-  -khtml-border-top-right-radius:0.3em;
-  border-top-right-radius:0.3em;
+  -moz-border-radius-topleft:0.4em;
+  -webkit-border-top-left-radius:0.4em;
+  -o-border-top-left-radius:0.4em;
+  -ms-border-top-left-radius:0.4em;
+  -khtml-border-top-left-radius:0.4em;
+  border-top-left-radius:0.4em;
+  -moz-border-radius-topright:0.4em;
+  -webkit-border-top-right-radius:0.4em;
+  -o-border-top-right-radius:0.4em;
+  -ms-border-top-right-radius:0.4em;
+  -khtml-border-top-right-radius:0.4em;
+  border-top-right-radius:0.4em;
   z-index:1
 }
 
