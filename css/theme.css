@@ -51,6 +51,7 @@ body > header h1 > a, body > header h1 > a:visited {
 /* Main areas */
 html {
   background:#151515 url('/KamikazeRace/line-tile.png') top left
+  max-width:90%;
 }
 
 body > div {
